@@ -1,5 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/web3p/ethereum-tx" />
+      <path value="$PROJECT_DIR$/vendor/web3p/ethereum-util" />
+      <path value="$PROJECT_DIR$/vendor/web3p/rlp" />
+      <path value="$PROJECT_DIR$/vendor/web3p/web3.php" />
+      <path value="$PROJECT_DIR$/vendor/adbario/php-dot-notation" />
+      <path value="$PROJECT_DIR$/vendor/bitwasp/bech32" />
+      <path value="$PROJECT_DIR$/vendor/bitwasp/bitcoin" />
+      <path value="$PROJECT_DIR$/vendor/bitwasp/buffertools" />
+      <path value="$PROJECT_DIR$/vendor/fgrosse/phpasn1" />
+      <path value="$PROJECT_DIR$/vendor/mdanter/ecc" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/pleonasm/merkle-tree" />
+      <path value="$PROJECT_DIR$/vendor/simplito/bigint-wrapper-php" />
+      <path value="$PROJECT_DIR$/vendor/simplito/bn-php" />
+      <path value="$PROJECT_DIR$/vendor/simplito/elliptic-php" />
+      <path value="$PROJECT_DIR$/vendor/lastguest/murmurhash" />
+      <path value="$PROJECT_DIR$/vendor/mtdowling/jmespath.php" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/chesterlyd/ethereum-client" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/kornrunner/keccak" />
+      <path value="$PROJECT_DIR$/vendor/clagiordano/weblibs-configmanager" />
+      <path value="$PROJECT_DIR$/vendor/alibabacloud/client" />
+      <path value="$PROJECT_DIR$/vendor/alibabacloud/sdk" />
+      <path value="$PROJECT_DIR$/vendor/danielstjules/stringy" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="8.0">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
   <component name="PhpUnit">
     <phpunit_settings>
       <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />

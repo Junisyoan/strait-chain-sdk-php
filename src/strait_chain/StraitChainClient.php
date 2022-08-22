@@ -230,6 +230,19 @@ class StraitChainClient
         return $this->request("scs_nft_mint",$mintParam,1);
     }
 
+    /**
+     * 参数同scs_nft_mint一样，但是count要为1
+     * 返回的是藏品信息
+     *
+     */
+    public function scs_nft_mint_alone($mintParam)
+    {
+        array_unshift($mintParam,$this->appId);
+        $str = $this->signByAppKey($mintParam);
+        $mintParam['sign'] = $str;
+        return $this->request("scs_nft_mint_alone",$mintParam,1);
+    }
+
     public function signByAppKey($param)
     {
         $param['appKey'] = $this->appKey;
